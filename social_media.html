@@ -3,21 +3,6 @@
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
-  <body>
-    <a href="https://twitter.com/AndyOldnall" target="_blank">
-      <img
-        src="Images/Me.jpg"
-        alt="Andrew Oldnall"
-        id="profile-image"
-        style="
-          position: fixed;
-          top: 10px;
-          right: 10px;
-          width: 100px;
-          height: auto;
-        "
-      />
-    </a>
     <header>
       <h2>Andrew Oldnall</h2>
     </header>
@@ -34,22 +19,40 @@
         <li><a href="#section8">Something</a></li>
       </ul>
     </nav>
+    <head>
+      <style>
+        .social-link {
+          display: flex;
+          flex-direction: column;
+          align-items: left;
+          text-align: left;
+          margin-bottom: 20px; /* Add spacing between social links */
+        }
 
+        .social-link img {
+          width: 60px;
+          margin-bottom: 10px; /* Spacing between the icon and handle */
+        }
+      </style>
+    </head>
     <section id="section1">
       <h2>Social Media</h2>
-      <p></p>
+      <h3>
+        Feel free to follow me on social media, drop me a message and say Hi.
+      </h3>
+      <div class="social-link">
+        <a href="https://twitter.com/AndyOldnall">
+          <img src="Images/x-twitter-logo.png" alt="Twitter" />
+          @AndyOldnall
+        </a>
+      </div>
+      <div class="social-link">
+        <a href="https://facebook.com/AndrewOldnall">
+          <img src="Images/2021_Facebook_icon.svg.png" alt="Facebook" />
+          @AndrewOldnall
+        </a>
+      </div>
     </section>
-
-    <section id="section2">
-      <h2>Section 1</h2>
-      <p></p>
-    </section>
-
-    <section id="section3">
-      <h2>Section 2</h2>
-      <p></p>
-    </section>
-
     <footer>
       <p>Copyright &copy; 2023</p>
     </footer>

@@ -1,8 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Your Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!-- Include the shared header -->
+    <!--#include virtual="header.html" -->
+  </head>
+  <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
+  <body>
+    <a href="https://twitter.com/AndyOldnall" target="_blank">
+      <img
+        src="Images/Me.jpg"
+        alt="Andrew Oldnall"
+        id="profile-image"
+        style="
+          position: fixed;
+          top: 10px;
+          right: 10px;
+          width: 100px;
+          height: auto;
+        "
+      />
+    </a>
+  <body>
     <header>
       <h2>Andrew Oldnall</h2>
     </header>
@@ -20,23 +42,9 @@
       </ul>
     </nav>
 
-    <section id="section1">
-      <h2>Contact me via email at Andrew-oldnall@hotmail.com</h2>
-      <p></p>
-    </section>
+    <!-- Page-specific content here -->
 
-    <section id="section2">
-      <h2>Section 1</h2>
-      <p></p>
-    </section>
-
-    <section id="section3">
-      <h2>Section 2</h2>
-      <p></p>
-    </section>
-
-    <footer>
-      <p>Copyright &copy; 2023</p>
-    </footer>
+    <!-- Include the shared footer -->
+    <!--#include virtual="footer.html" -->
   </body>
 </html>
